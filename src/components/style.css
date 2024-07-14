@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+.textArea{
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+.textArea textarea{
+    border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.textArea p{
+    padding: 10px;
+}
+.toDo{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+}
+.toDo ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+.toDo input{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.toDo button{
+    height: 30px;
+    width: 120px;
+    background-color: #f3e248;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.whyReact{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+.whyReact button {
+    font-size: 0.80rem;
+    background-color: #282f33;
+    border: none;
+    border-bottom-color: #f3e248;
+    color: #e0eff1;
+    border-radius: 4px 4px 0 0;
+    padding: 0.5rem 1rem;
+    transition: all 0.5s ease-out;
+    border: 1px solid black;
+}
+
+.whyReact button:active,
+.whyReact button:hover{
+    background-color: #2d3949;
+    border-radius: 0 4px 4px 4px;
+    padding: 0.5rem;
+}
+
+.whyReact ul{
+    margin: 0;
+    padding: 20px;
+    list-style-type: none;
+}
